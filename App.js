@@ -1,6 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useState, useRef, useEffect, Component } from "react";
+import { Button, 
+  StyleSheet, 
+  Text, 
+  View,
+  ScrollView, 
+  TouchableOpacity,
+  SafeAreaView,
+  TextInput,
+  Dimensions,
+  Image, 
+  Platform
+} from 'react-native';
 
 export default function App() {
   return (
